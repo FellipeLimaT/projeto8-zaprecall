@@ -1,0 +1,39 @@
+footer{
+    width: 100%;
+    min-height: 70px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+footer ion-icon{
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+.resultBox {
+    width: 80%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.resultBox img{
+    margin-right: 15px;
+}
+
+.resultView p {
+    max-width: 200px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
